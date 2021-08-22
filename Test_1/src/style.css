@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+.big_circle {
+    border: 5px solid blue;
+    border-radius: 50%;
+    width: 50%;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.small_circle{
+    border-radius: 50%;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}

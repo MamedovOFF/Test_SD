@@ -1,0 +1,49 @@
+html, body{
+    width: 100%;
+height: 100%;
+padding: 0;
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.group{
+    position: relative;
+    margin: 200px 50px ;
+}
+.circle {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 10px;
+    transition: transform linear 1000ms;
+    position: absolute;
+}
+.button {
+    position: absolute;
+    top: 5%;
+}
+#btn{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(17, 112, 167);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+#btn:hover{
+    opacity: 0.7;
+}
+#num_count{
+    -moz-appearance:textfield;
+    border:2px solid rgb(17, 112, 167);
+    border-radius: 20px;
+    padding: 5px 10px;
+    outline: none;
+}
+#num_count::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
